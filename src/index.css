@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+NO:wght@100..400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-romance-50: #faf5ff;
+  --color-romance-100: #f3e8ff;
+  --color-romance-200: #e9d5ff;
+  --color-romance-300: #d8b4fe;
+  --color-romance-400: #c084fc;
+  --color-romance-500: #a855f7;
+  --color-romance-600: #9333ea;
+  --color-romance-700: #7e22ce;
+  --color-romance-800: #6b21a8;
+  --color-romance-900: #581c87;
+  --font-sans: "Nunito", "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: linear-gradient(160deg, #faf5ff 0%, #f3e8ff 40%, #ede9fe 100%);
+  color: #3b0764;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8b4fe;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(216, 180, 254, 0.4);
+}
+
+h2 {
+  font-family: "Playwrite NO", serif;
+}

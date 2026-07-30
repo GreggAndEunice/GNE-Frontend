@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "date",
+      "name": "Date Ideas",
+      "icon": "Heart",
+      "ideas": [
+        "Watch the sunset together",
+        "Cook a meal together",
+        "Go on a coffee date",
+        "Visit a new place",
+        "Have a picnic",
+        "Movie night at home",
+        "Try a new restaurant",
+        "Go for a night walk",
+        "Take random photos together",
+        "Write each other letters"
+      ]
+    },
+    {
+      "id": "position",
+      "name": "Position Ideas",
+      "icon": "Sparkles",
+      "ideas": [
+        "Sit beside each other",
+        "Face each other",
+        "Hold hands",
+        "Give a back hug",
+        "Stand close together",
+        "Look into each other's eyes",
+        "Dance together",
+        "Take a walking pose",
+        "Lean on each other",
+        "Create a funny pose"
+      ]
+    },
+    {
+      "id": "activity",
+      "name": "Activity Ideas",
+      "icon": "Gamepad2",
+      "ideas": [
+        "Play a board game",
+        "Try a new hobby",
+        "Learn something together",
+        "Build something together",
+        "Exercise together",
+        "Draw each other",
+        "Make a playlist",
+        "Try a challenge",
+        "Play video games",
+        "Create a memory album"
+      ]
+    },
+    {
+      "id": "conversation",
+      "name": "Conversation Ideas",
+      "icon": "MessageCircle",
+      "ideas": [
+        "Talk about childhood memories",
+        "Share your dreams",
+        "Ask funny questions",
+        "Talk about future plans",
+        "Share your favorite moments",
+        "Describe your perfect day",
+        "Tell embarrassing stories",
+        "Discuss your goals",
+        "Talk about your first impression",
+        "Share hidden talents"
+      ]
+    }
+  ]
+}
